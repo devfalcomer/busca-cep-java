@@ -1,18 +1,21 @@
-## Getting Started
+# Busca CEP Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Uma aplicação em Java para consulta de endereços via CEP, integrada à API pública do **ViaCEP**. O projeto faz chamadas HTTP de forma assíncrona/síncrona, converte as respostas JSON em objetos Java utilizando o **Gson** e registra as buscas realizadas.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Tecnologias e Recursos Utilizados
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* **Java 21**
+* **HttpClient / HttpRequest / HttpResponse** (para consumo da API REST)
+* **Java Records** (para representação imutável dos dados de CEP)
+* **Gson** (para serialização e desserialização do JSON)
+* **Git & GitHub** (para controle de versão)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como Executar o Projeto
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. **Clone o repositório:**
+   ```bash
+   git clone (https://github.com/devfalcomer/busca-cep-java.git)
